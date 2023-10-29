@@ -9,7 +9,7 @@
 
 :root {
     /*Primary*/
-     --ligh-red: hsl(0, 100%, 67%);
+     --ligh-red: #ff5757;
     --orangey-yellow: #ffb01f;
     --green-teal: #00bd91;
     --cobalt-blue: #1125d4;
@@ -116,7 +116,8 @@ section.summary > p {
 }
 
 .summary > p#red {
-    background-color: var(--ligh-red);
+    background-color: #ff575718;
+    color: var(--ligh-red);
 }
 
 p#red::before {
@@ -124,7 +125,8 @@ p#red::before {
 }
 
 .summary >p#yellow {
-    background-color: var(--orangey-yellow);
+    background-color: #ffb11f25;
+    color: var(--orangey-yellow);
 }
 
 p#yellow::before {
@@ -132,7 +134,8 @@ p#yellow::before {
 }
 
 .summary >p#green {
-    background-color: var(--green-teal);
+    background-color: #00bd9121;
+    color: var(--green-teal);
 }
 
 p#green::before {
@@ -140,7 +143,8 @@ p#green::before {
 }
 
 .summary >p#blue {
-    background-color: var(--cobalt-blue);
+    background-color: #1124d428;
+    color: var(--cobalt-blue);
 }
 
 p#blue::before {
