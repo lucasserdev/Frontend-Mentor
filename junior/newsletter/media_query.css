@@ -1,0 +1,63 @@
+/** ************ TELA PARA TABLET ********** */
+
+@media screen and (min-width: 992px){
+
+    body {
+        position: relative;
+        
+    }
+    
+    main {
+        margin: auto;
+        width: 992px;
+        display: flex;
+        height: 650px;
+        border-radius: 10px;
+        justify-content: space-around;
+
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    section#img {
+        background-image: url(assets/images/illustration-sign-up-desktop.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+
+        height: 600px;
+        width: 45%;
+        order: 2;
+
+        margin-top: 25px;
+        border-radius: 10px;
+    }
+
+    #info {
+        width: 45%;
+        margin-top: 50px;
+    }
+
+    #sub {
+        width: 500px;
+        height: 400px;
+        border-radius: 10px;
+
+        position: absolute;
+        top: 50%;
+        left: 50%;
+
+        transform: translate(-50%, -50%);
+    }
+
+    #org {
+        width: 400px;
+        margin-left: 50px;
+    }
+
+    div#org > input[type="button"] {
+    margin-top: 25px;
+    }
+}
